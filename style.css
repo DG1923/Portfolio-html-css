@@ -106,3 +106,17 @@ input[type="text"]{
         row-gap: 10px;
     }
 }
+@media (max-width:750px){
+
+    .features-project{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        row-gap: 10px;
+    }
+    .title{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap:10px;
+    }
+   
+}
